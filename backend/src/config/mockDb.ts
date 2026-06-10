@@ -2,10 +2,41 @@ import fs from "fs";
 import path from "path";
 import { logger } from "./logger";
 
-const MOCK_DB_DIR = path.join(process.cwd(), "mock_db_data");
+// Detect Vercel environment
+const isVercel = !!process.env.VERCEL;
 
+// Resolve the directory where mock data is stored in the project
+const PROJECT_SEED_DIR = path.join(__dirname, "../../mock_db_data");
+
+// Resolve the active directory where files will be read/written
+const MOCK_DB_DIR = isVercel ? "/tmp/mock_db_data" : (
+  fs.existsSync(path.join(process.cwd(), "backend", "mock_db_data"))
+    ? path.join(process.cwd(), "backend", "mock_db_data")
+    : path.join(process.cwd(), "mock_db_data")
+);
+
+// Create directory if it doesn't exist
 if (!fs.existsSync(MOCK_DB_DIR)) {
-  fs.mkdirSync(MOCK_DB_DIR);
+  fs.mkdirSync(MOCK_DB_DIR, { recursive: true });
+}
+
+// Copy seed files if they exist in project seed directory and aren't in the active directory
+if (fs.existsSync(PROJECT_SEED_DIR)) {
+  try {
+    const seedFiles = fs.readdirSync(PROJECT_SEED_DIR);
+    for (const file of seedFiles) {
+      if (file.endsWith(".json")) {
+        const destPath = path.join(MOCK_DB_DIR, file);
+        if (!fs.existsSync(destPath)) {
+          const srcPath = path.join(PROJECT_SEED_DIR, file);
+          fs.copyFileSync(srcPath, destPath);
+          logger.info(`[MOCK DB] Seeded ${file} to active directory: ${destPath}`);
+        }
+      }
+    }
+  } catch (err) {
+    logger.error("Failed to pre-seed mock DB directory:", err);
+  }
 }
 
 class MockDb {
