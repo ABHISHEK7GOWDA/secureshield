@@ -1,0 +1,164 @@
+[
+  {
+    "_id": "iqs7exhzs",
+    "userId": "8h01sy7f1",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjhoMDFzeTdmMSIsInNlc3Npb25JZCI6ImlxczdleGh6cyIsImlhdCI6MTc4MTAwODUyNCwiZXhwIjoxNzgxNjEzMzI0fQ.lgGiVLywGDX5Zoalp3IB88zf2nKcqpsqZE0fyj8B7lY",
+    "deviceFingerprint": "be5cff3037a4ad4adbc68a93c46b031b1714d247137e5d4590da380c27c82999",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+    "location": {
+      "latitude": 13.327377784837626,
+      "longitude": 77.08348996753573,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "expiresAt": "2026-06-16T12:35:24.956Z",
+    "isValid": false,
+    "createdAt": "2026-06-09T12:35:24.957Z",
+    "updatedAt": "2026-06-09T12:35:52.608Z"
+  },
+  {
+    "_id": "m560aj2cq",
+    "userId": "8h01sy7f1",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjhoMDFzeTdmMSIsInNlc3Npb25JZCI6Im01NjBhajJjcSIsImlhdCI6MTc4MTAwODg2OCwiZXhwIjoxNzgxNjEzNjY4fQ.cjuZILDUUUSZvquN4OMVjXiPt_EALOVK4Md9aIjMBQ0",
+    "deviceFingerprint": "be5cff3037a4ad4adbc68a93c46b031b1714d247137e5d4590da380c27c82999",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+    "location": {
+      "latitude": 13.327296997604103,
+      "longitude": 77.08343700676632,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "expiresAt": "2026-06-16T12:41:08.224Z",
+    "isValid": true,
+    "createdAt": "2026-06-09T12:41:08.230Z",
+    "updatedAt": "2026-06-09T12:41:08.233Z"
+  },
+  {
+    "_id": "4fpjfic21",
+    "userId": "3incrg0nl",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNpbmNyZzBubCIsInNlc3Npb25JZCI6IjRmcGpmaWMyMSIsImlhdCI6MTc4MTA4MDQ5MywiZXhwIjoxNzgxNjg1MjkzfQ.da6sM2VDZtxUJgl9WYCP2Tp4KXx5cQQrorR9NKVuCmo",
+    "deviceFingerprint": "fd922344a6dbe70127a6cbd33405c182645db15876860f980f30b1180a1ffbfd",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.120.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "expiresAt": "2026-06-17T08:34:53.524Z",
+    "isValid": true,
+    "createdAt": "2026-06-10T08:34:53.524Z",
+    "updatedAt": "2026-06-10T08:34:53.537Z"
+  },
+  {
+    "_id": "id1bwwn9e",
+    "userId": "ydhodbjo9",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InlkaG9kYmpvOSIsInNlc3Npb25JZCI6ImlkMWJ3d245ZSIsImlhdCI6MTc4MTA4MDc0OSwiZXhwIjoxNzgxNjg1NTQ5fQ.2k5sEDxnlYDKNgtnLra3SzmuzKd5sjtfE1olgieq7Ec",
+    "deviceFingerprint": "efb0f986a90d2b888acdcac9f8754429e6bb202f7ac693b77ea7c94abda6d125",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "location": {
+      "latitude": 13.327355734646886,
+      "longitude": 77.08348548759395,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "expiresAt": "2026-06-17T08:39:09.675Z",
+    "isValid": false,
+    "createdAt": "2026-06-10T08:39:09.676Z",
+    "updatedAt": "2026-06-10T08:46:03.574Z"
+  },
+  {
+    "_id": "7v3u0v35a",
+    "userId": "ydhodbjo9",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InlkaG9kYmpvOSIsInNlc3Npb25JZCI6Ijd2M3UwdjM1YSIsImlhdCI6MTc4MTA4MTIyOSwiZXhwIjoxNzgxNjg2MDI5fQ.H7ERg11xyl-GeqnL0PVKy78UO5kQ3D-t3Izt86kU6ks",
+    "deviceFingerprint": "efb0f986a90d2b888acdcac9f8754429e6bb202f7ac693b77ea7c94abda6d125",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "location": {
+      "latitude": 13.327323447729755,
+      "longitude": 77.0834587809183,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "expiresAt": "2026-06-17T08:47:09.265Z",
+    "isValid": false,
+    "createdAt": "2026-06-10T08:47:09.266Z",
+    "updatedAt": "2026-06-10T08:48:05.706Z"
+  },
+  {
+    "_id": "14t3qwpyj",
+    "userId": "ydhodbjo9",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InlkaG9kYmpvOSIsInNlc3Npb25JZCI6IjE0dDNxd3B5aiIsImlhdCI6MTc4MTA4MTM2OSwiZXhwIjoxNzgxNjg2MTY5fQ.P1XZz54_3IFdrtIAd3aOlc7CJL76G7LJnxorI6jHL6E",
+    "deviceFingerprint": "efb0f986a90d2b888acdcac9f8754429e6bb202f7ac693b77ea7c94abda6d125",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "location": {
+      "latitude": 13.327376819719378,
+      "longitude": 77.08347198283246,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "expiresAt": "2026-06-17T08:49:29.964Z",
+    "isValid": false,
+    "createdAt": "2026-06-10T08:49:29.965Z",
+    "updatedAt": "2026-06-10T08:49:34.888Z"
+  },
+  {
+    "_id": "bloc85x3s",
+    "userId": "ydhodbjo9",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InlkaG9kYmpvOSIsInNlc3Npb25JZCI6ImJsb2M4NXgzcyIsImlhdCI6MTc4MTA4MTcyOCwiZXhwIjoxNzgxNjg2NTI4fQ.quj3qLpFHr2hgww6bmUhY0vhaccMZu0lwfZ6MhDYfJM",
+    "deviceFingerprint": "9e669ef731a97f53727d2b5c39ae308a59620d21c251dee3a42615db3ecfcaa2",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "location": {
+      "latitude": 13.327332659934415,
+      "longitude": 77.08354326135,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "expiresAt": "2026-06-17T08:55:28.318Z",
+    "isValid": false,
+    "createdAt": "2026-06-10T08:55:28.319Z",
+    "updatedAt": "2026-06-10T08:56:35.885Z"
+  },
+  {
+    "_id": "co7eeflxc",
+    "userId": "ydhodbjo9",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InlkaG9kYmpvOSIsInNlc3Npb25JZCI6ImNvN2VlZmx4YyIsImlhdCI6MTc4MTA4MTg1MywiZXhwIjoxNzgxNjg2NjUzfQ.WMy-hclsNbRotIhBOnqiyzyClNrxe0xuzlTmK3JzoAg",
+    "deviceFingerprint": "9e669ef731a97f53727d2b5c39ae308a59620d21c251dee3a42615db3ecfcaa2",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "location": {
+      "latitude": 13.327364997645923,
+      "longitude": 77.08352074514481,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "expiresAt": "2026-06-17T08:57:33.372Z",
+    "isValid": true,
+    "createdAt": "2026-06-10T08:57:33.373Z",
+    "updatedAt": "2026-06-10T08:57:33.379Z"
+  },
+  {
+    "_id": "b2shyl7xi",
+    "userId": "oa6nyno13",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Im9hNm55bm8xMyIsInNlc3Npb25JZCI6ImIyc2h5bDd4aSIsImlhdCI6MTc4MTA4NjM2MiwiZXhwIjoxNzgxNjkxMTYyfQ.m-TnemhBaFsIF8RPyvIPd2Jc9-SvOUe4RyEY06d7lu0",
+    "deviceFingerprint": "8703845822a13999d43f848d9a1ccafeaa7f6678e1f21c7fb0e6e883e726d13b",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    "expiresAt": "2026-06-17T10:12:42.026Z",
+    "isValid": true,
+    "createdAt": "2026-06-10T10:12:42.026Z",
+    "updatedAt": "2026-06-10T10:12:42.037Z"
+  }
+]

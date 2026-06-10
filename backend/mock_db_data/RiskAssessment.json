@@ -1,0 +1,166 @@
+[
+  {
+    "userId": "8h01sy7f1",
+    "ipAddress": "::1",
+    "deviceFingerprint": "be5cff3037a4ad4adbc68a93c46b031b1714d247137e5d4590da380c27c82999",
+    "riskScore": 20,
+    "triggers": [
+      "unknown_device"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "vadk5sl3s",
+    "createdAt": "2026-06-09T12:34:12.390Z",
+    "updatedAt": "2026-06-09T12:34:12.390Z"
+  },
+  {
+    "userId": "8h01sy7f1",
+    "ipAddress": "::1",
+    "deviceFingerprint": "be5cff3037a4ad4adbc68a93c46b031b1714d247137e5d4590da380c27c82999",
+    "riskScore": 40,
+    "triggers": [
+      "untrusted_device",
+      "keystroke_mismatch"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "w5qmcwfkg",
+    "createdAt": "2026-06-09T12:36:25.087Z",
+    "updatedAt": "2026-06-09T12:36:25.087Z"
+  },
+  {
+    "userId": "8h01sy7f1",
+    "ipAddress": "::1",
+    "deviceFingerprint": "be5cff3037a4ad4adbc68a93c46b031b1714d247137e5d4590da380c27c82999",
+    "riskScore": 40,
+    "triggers": [
+      "untrusted_device",
+      "keystroke_mismatch"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "s8rn1g7gg",
+    "createdAt": "2026-06-09T12:40:28.937Z",
+    "updatedAt": "2026-06-09T12:40:28.937Z"
+  },
+  {
+    "userId": "3incrg0nl",
+    "ipAddress": "::1",
+    "deviceFingerprint": "fd922344a6dbe70127a6cbd33405c182645db15876860f980f30b1180a1ffbfd",
+    "riskScore": 20,
+    "triggers": [
+      "unknown_device"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "2rn5tq2wx",
+    "createdAt": "2026-06-10T08:34:09.740Z",
+    "updatedAt": "2026-06-10T08:34:09.740Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "ipAddress": "::1",
+    "deviceFingerprint": "codex-test-device",
+    "riskScore": 20,
+    "triggers": [
+      "unknown_device"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "7p3y0ko2a",
+    "createdAt": "2026-06-10T08:35:37.295Z",
+    "updatedAt": "2026-06-10T08:35:37.295Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "ipAddress": "::1",
+    "deviceFingerprint": "efb0f986a90d2b888acdcac9f8754429e6bb202f7ac693b77ea7c94abda6d125",
+    "riskScore": 50,
+    "triggers": [
+      "unknown_device",
+      "keystroke_mismatch"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "ayjwi2xgs",
+    "createdAt": "2026-06-10T08:38:08.860Z",
+    "updatedAt": "2026-06-10T08:38:08.860Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "ipAddress": "::1",
+    "deviceFingerprint": "efb0f986a90d2b888acdcac9f8754429e6bb202f7ac693b77ea7c94abda6d125",
+    "riskScore": 40,
+    "triggers": [
+      "untrusted_device",
+      "keystroke_mismatch"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "0c0pbs1du",
+    "createdAt": "2026-06-10T08:46:09.268Z",
+    "updatedAt": "2026-06-10T08:46:09.268Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "ipAddress": "::1",
+    "deviceFingerprint": "efb0f986a90d2b888acdcac9f8754429e6bb202f7ac693b77ea7c94abda6d125",
+    "riskScore": 40,
+    "triggers": [
+      "untrusted_device",
+      "keystroke_mismatch"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "63sbmjhi0",
+    "createdAt": "2026-06-10T08:48:35.445Z",
+    "updatedAt": "2026-06-10T08:48:35.445Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "ipAddress": "::1",
+    "deviceFingerprint": "efb0f986a90d2b888acdcac9f8754429e6bb202f7ac693b77ea7c94abda6d125",
+    "riskScore": 40,
+    "triggers": [
+      "untrusted_device",
+      "keystroke_mismatch"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "9v700jm3x",
+    "createdAt": "2026-06-10T08:49:38.648Z",
+    "updatedAt": "2026-06-10T08:49:38.648Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "ipAddress": "::1",
+    "deviceFingerprint": "9e669ef731a97f53727d2b5c39ae308a59620d21c251dee3a42615db3ecfcaa2",
+    "riskScore": 50,
+    "triggers": [
+      "unknown_device",
+      "keystroke_mismatch"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "xzbih5dlq",
+    "createdAt": "2026-06-10T08:54:13.266Z",
+    "updatedAt": "2026-06-10T08:54:13.266Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "ipAddress": "::1",
+    "deviceFingerprint": "9e669ef731a97f53727d2b5c39ae308a59620d21c251dee3a42615db3ecfcaa2",
+    "riskScore": 40,
+    "triggers": [
+      "untrusted_device",
+      "keystroke_mismatch"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "c0ikxpa49",
+    "createdAt": "2026-06-10T08:56:38.757Z",
+    "updatedAt": "2026-06-10T08:56:38.757Z"
+  },
+  {
+    "userId": "oa6nyno13",
+    "ipAddress": "::1",
+    "deviceFingerprint": "8703845822a13999d43f848d9a1ccafeaa7f6678e1f21c7fb0e6e883e726d13b",
+    "riskScore": 20,
+    "triggers": [
+      "unknown_device"
+    ],
+    "actionTaken": "require_mfa",
+    "_id": "u8bcgzh9p",
+    "createdAt": "2026-06-10T10:11:16.013Z",
+    "updatedAt": "2026-06-10T10:11:16.013Z"
+  }
+]

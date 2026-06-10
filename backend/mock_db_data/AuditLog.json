@@ -1,0 +1,194 @@
+[
+  {
+    "userId": "8h01sy7f1",
+    "action": "login_attempt",
+    "status": "failure",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+    "details": {
+      "reason": "password_mismatch"
+    },
+    "_id": "pf6rds2lo",
+    "createdAt": "2026-06-09T12:32:17.961Z",
+    "updatedAt": "2026-06-09T12:32:17.961Z"
+  },
+  {
+    "userId": "8h01sy7f1",
+    "action": "login_attempt",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+    "details": {
+      "deviceName": "Windows PC",
+      "location": "Bengaluru"
+    },
+    "_id": "5n7grghpr",
+    "createdAt": "2026-06-09T12:35:24.983Z",
+    "updatedAt": "2026-06-09T12:35:24.983Z"
+  },
+  {
+    "userId": "8h01sy7f1",
+    "action": "login_attempt",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+    "details": {
+      "deviceName": "Windows PC",
+      "location": "Bengaluru"
+    },
+    "_id": "fsy9g4vlr",
+    "createdAt": "2026-06-09T12:41:08.243Z",
+    "updatedAt": "2026-06-09T12:41:08.243Z"
+  },
+  {
+    "userId": "3incrg0nl",
+    "action": "login_attempt",
+    "status": "failure",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.120.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36",
+    "details": {
+      "reason": "password_mismatch"
+    },
+    "_id": "806jlaup5",
+    "createdAt": "2026-06-10T08:31:07.344Z",
+    "updatedAt": "2026-06-10T08:31:07.344Z"
+  },
+  {
+    "userId": "3incrg0nl",
+    "action": "login_attempt",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.120.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36",
+    "details": {
+      "deviceName": "Windows PC",
+      "location": "Bengaluru"
+    },
+    "_id": "lgj1pp2m4",
+    "createdAt": "2026-06-10T08:34:53.539Z",
+    "updatedAt": "2026-06-10T08:34:53.539Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "action": "login_attempt",
+    "status": "failure",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "details": {
+      "reason": "password_mismatch"
+    },
+    "_id": "f736kj3xw",
+    "createdAt": "2026-06-10T08:37:51.695Z",
+    "updatedAt": "2026-06-10T08:37:51.695Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "action": "login_attempt",
+    "status": "failure",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "details": {
+      "reason": "password_mismatch"
+    },
+    "_id": "042omg67o",
+    "createdAt": "2026-06-10T08:37:56.021Z",
+    "updatedAt": "2026-06-10T08:37:56.021Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "action": "login_attempt",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "details": {
+      "deviceName": "Windows PC",
+      "location": "Bengaluru"
+    },
+    "_id": "aiyvlznsk",
+    "createdAt": "2026-06-10T08:39:09.685Z",
+    "updatedAt": "2026-06-10T08:39:09.685Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "action": "login_attempt",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "details": {
+      "deviceName": "Windows PC",
+      "location": "Bengaluru"
+    },
+    "_id": "tzfx30lcn",
+    "createdAt": "2026-06-10T08:47:09.274Z",
+    "updatedAt": "2026-06-10T08:47:09.274Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "action": "login_attempt",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "details": {
+      "deviceName": "Windows PC",
+      "location": "Bengaluru"
+    },
+    "_id": "t764uluia",
+    "createdAt": "2026-06-10T08:49:29.972Z",
+    "updatedAt": "2026-06-10T08:49:29.972Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "action": "login_attempt",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "details": {
+      "deviceName": "Windows PC",
+      "location": "Bengaluru"
+    },
+    "_id": "kxf4bbghn",
+    "createdAt": "2026-06-10T08:55:28.325Z",
+    "updatedAt": "2026-06-10T08:55:28.325Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "action": "login_attempt",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "details": {
+      "deviceName": "Windows PC",
+      "location": "Bengaluru"
+    },
+    "_id": "fvoo89hzw",
+    "createdAt": "2026-06-10T08:57:33.382Z",
+    "updatedAt": "2026-06-10T08:57:33.382Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "action": "role_change",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "details": {
+      "targetUserId": "ydhodbjo9",
+      "newRole": "User"
+    },
+    "_id": "5ehmp8iw6",
+    "createdAt": "2026-06-10T08:58:19.544Z",
+    "updatedAt": "2026-06-10T08:58:19.544Z"
+  },
+  {
+    "userId": "oa6nyno13",
+    "action": "login_attempt",
+    "status": "success",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "details": {
+      "deviceName": "Windows PC",
+      "location": "Bengaluru"
+    },
+    "_id": "wjgvzpfde",
+    "createdAt": "2026-06-10T10:12:42.040Z",
+    "updatedAt": "2026-06-10T10:12:42.040Z"
+  }
+]

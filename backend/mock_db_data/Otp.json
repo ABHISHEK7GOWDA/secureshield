@@ -1,0 +1,50 @@
+[
+  {
+    "userId": "8h01sy7f1",
+    "codeHash": "5f62933d3922b66474896427ebe3343893415853a3d7c51404f35011d8fe51fd",
+    "type": "email",
+    "destination": "admin@secureshield.ai",
+    "expiresAt": "2026-06-09T12:45:28.940Z",
+    "attempts": 0,
+    "verified": true,
+    "_id": "2xv5qhndt",
+    "createdAt": "2026-06-09T12:40:28.947Z",
+    "updatedAt": "2026-06-09T12:40:47.898Z"
+  },
+  {
+    "userId": "3incrg0nl",
+    "codeHash": "dd3a65c18d423104c72630765fd882bf17b67858f4c56923478fb8fde8941235",
+    "type": "email",
+    "destination": "admin@secureshield.ai",
+    "expiresAt": "2026-06-10T08:39:09.745Z",
+    "attempts": 0,
+    "verified": true,
+    "_id": "wsspl232s",
+    "createdAt": "2026-06-10T08:34:09.750Z",
+    "updatedAt": "2026-06-10T08:34:34.072Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "codeHash": "e7d5460113dada2ad2b0a3738411f205058ddd9463c8e5cf8df9278cac273a76",
+    "type": "email",
+    "destination": "admin@secureshield.ai",
+    "expiresAt": "2026-06-10T09:01:38.762Z",
+    "attempts": 0,
+    "verified": true,
+    "_id": "swg29c17c",
+    "createdAt": "2026-06-10T08:56:38.765Z",
+    "updatedAt": "2026-06-10T08:57:15.640Z"
+  },
+  {
+    "userId": "oa6nyno13",
+    "codeHash": "e644bab55dd20e19348d4bed1ca72700b38631134e29c3d7279723e395dfeeb3",
+    "type": "email",
+    "destination": "admin@secureshield.ai",
+    "expiresAt": "2026-06-10T10:16:16.015Z",
+    "attempts": 0,
+    "verified": true,
+    "_id": "pl9fcex26",
+    "createdAt": "2026-06-10T10:11:16.020Z",
+    "updatedAt": "2026-06-10T10:12:00.788Z"
+  }
+]

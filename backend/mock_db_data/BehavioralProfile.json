@@ -1,0 +1,72 @@
+[
+  {
+    "userId": "8h01sy7f1",
+    "keystroke": {
+      "avgDwellTime": 80,
+      "avgFlightTime": 2719,
+      "rhythmVariance": 30,
+      "keySamplesCount": 18
+    },
+    "mouse": {
+      "avgVelocity": 150,
+      "avgJitter": 5,
+      "curvatureFactor": 8
+    },
+    "_id": "sc0wdxfqt",
+    "createdAt": "2026-06-09T12:34:12.385Z",
+    "updatedAt": "2026-06-09T12:34:12.385Z"
+  },
+  {
+    "userId": "3incrg0nl",
+    "keystroke": {
+      "avgDwellTime": 69,
+      "avgFlightTime": 15688,
+      "rhythmVariance": 30,
+      "keySamplesCount": 10
+    },
+    "mouse": {
+      "avgVelocity": 150,
+      "avgJitter": 5,
+      "curvatureFactor": 8
+    },
+    "_id": "4f3x5z0yl",
+    "createdAt": "2026-06-10T08:34:09.732Z",
+    "updatedAt": "2026-06-10T08:34:09.732Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "keystroke": {
+      "avgDwellTime": 100,
+      "avgFlightTime": 53,
+      "rhythmVariance": 30,
+      "keySamplesCount": 5
+    },
+    "mouse": {
+      "avgVelocity": 150,
+      "avgJitter": 5,
+      "curvatureFactor": 8
+    },
+    "_id": "2jf5igp3p",
+    "createdAt": "2026-06-10T08:35:37.293Z",
+    "updatedAt": "2026-06-10T08:38:08.852Z",
+    "keystroke.avgDwellTime": 98,
+    "keystroke.avgFlightTime": 121
+  },
+  {
+    "userId": "oa6nyno13",
+    "keystroke": {
+      "avgDwellTime": 80,
+      "avgFlightTime": 608,
+      "rhythmVariance": 30,
+      "keySamplesCount": 5
+    },
+    "mouse": {
+      "avgVelocity": 150,
+      "avgJitter": 5,
+      "curvatureFactor": 8
+    },
+    "_id": "xhfokm95m",
+    "createdAt": "2026-06-10T10:11:16.011Z",
+    "updatedAt": "2026-06-10T10:11:16.011Z"
+  }
+]

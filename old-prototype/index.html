@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureShield | Five Layer Authentication</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#auth">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <span>
+        <strong>SecureShield</strong>
+        <small>Advanced MFA System</small>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#auth">Authentication</a>
+      <a href="#layers">Five Layers</a>
+      <a href="#monitoring">Security Modules</a>
+      <a href="#applications">Applications</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="auth-shell" id="auth">
+      <div class="auth-workspace">
+        <div class="workspace-heading">
+          <p class="eyebrow">Cyber security login </p>
+          <h1>Four-layer authentication with behavioral and contextual intelligence.</h1>
+          <p class="intro">SecureShield verifies the user through password, OTP, facial recognition, and trusted location checks while analyzing password typing behavior in the background.</p>
+        </div>
+
+        <div class="progress-rail" aria-label="Authentication progress">
+          <div class="rail-line">
+            <span id="progressFill"></span>
+          </div>
+          <ol class="steps">
+            <li class="step active" data-step="0">
+              <span>1</span>
+              <strong>Password</strong>
+            </li>
+            <li class="step" data-step="1">
+              <span>2</span>
+              <strong>OTP</strong>
+            </li>
+            <li class="step" data-step="2">
+              <span>3</span>
+              <strong>Face</strong>
+            </li>
+            <li class="step" data-step="3">
+              <span>4</span>
+              <strong>Location</strong>
+            </li>
+          </ol>
+        </div>
+
+        <section class="auth-panel" aria-live="polite">
+          <article class="auth-stage current" id="stagePassword">
+            <div class="stage-title">
+              <span class="stage-number">01</span>
+              <div>
+                <h2>Password Verification</h2>
+                <p>Confirm the registered user credentials.</p>
+              </div>
+            </div>
+            <div class="password-intelligence">
+              <form id="passwordForm" class="form-stack">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" autocomplete="username" placeholder="SSIT" required>
+                <label for="password">Password</label>
+                <div class="password-row">
+                  <input id="password" name="password" type="password" autocomplete="current-password" placeholder="SSIT@123" required>
+                  <button class="icon-button" type="button" id="togglePassword" aria-label="Show password">Show</button>
+                </div>
+                <button class="primary-action" type="submit">Verify Password</button>
+                <p class="hint">Credentials: SSIT / SSIT@123</p>
+              </form>
+
+              <aside class="behavior-panel" aria-label="Behavioral password analysis">
+                <div class="behavior-heading">
+                  <span>Hidden</span>
+                  <div>
+                    <h3>Behavioral Level</h3>
+                    <p>Analyzes how the password is typed, not only what is typed.</p>
+                  </div>
+                </div>
+                <div class="metric-grid">
+                  <div>
+                    <strong id="charsPerSecond">0 ms</strong>
+                    <small>Dwell time</small>
+                  </div>
+                  <div>
+                    <strong id="wordsPerSecond">0 ms</strong>
+                    <small>Flight time</small>
+                  </div>
+                  <div>
+                    <strong id="avgKeyDelay">0 ms</strong>
+                    <small>Rhythm gap</small>
+                  </div>
+                  <div>
+                    <strong id="behaviorTrust">0%</strong>
+                    <small>Trust score</small>
+                  </div>
+                </div>
+                <div class="behavior-meter">
+                  <span id="behaviorFill"></span>
+                </div>
+                <p class="behavior-status" id="behaviorStatus">Type the password naturally to build a typing rhythm profile.</p>
+              </aside>
+            </div>
+          </article>
+
+          <article class="auth-stage" id="stageOtp">
+            <div class="stage-title">
+              <span class="stage-number">02</span>
+              <div>
+                <h2>One-Time Password</h2>
+                <p>Verify your identity via a secure 6-digit verification code sent to your mobile device.</p>
+              </div>
+            </div>
+            <form id="otpForm" class="form-stack">
+              <label for="phoneNumber">Mobile Number</label>
+              <div class="phone-input-group">
+                <input id="phoneNumber" name="phoneNumber" type="tel" inputmode="tel" placeholder="+91 99455 76554" value="+919945576554" autocomplete="tel" required>
+                <button class="secondary-action" type="button" id="sendOtp">Send Code</button>
+              </div>
+              
+              <div id="otpInputContainer" class="otp-input-container disabled">
+                <label for="otpInput">Verification Code</label>
+                <input id="otpInput" name="otpInput" inputmode="numeric" maxlength="6" placeholder="Enter 6-digit OTP" disabled required>
+                <button class="primary-action" type="submit" id="verifyOtpBtn" disabled>Verify Code</button>
+              </div>
+              <span id="otpDisplay">SMS Ready</span>
+              <p class="hint" id="otpStatus">Enter your phone number and click 'Send Code' to receive your secure OTP.</p>
+            </form>
+          </article>
+
+          <article class="auth-stage" id="stageFace">
+            <div class="stage-title">
+              <span class="stage-number">03</span>
+              <div>
+                <h2>Facial Recognition</h2>
+                <p>Match the live user with the stored biometric profile.</p>
+              </div>
+            </div>
+            <div class="face-grid">
+              <div class="camera-frame">
+                <video id="cameraFeed" autoplay muted playsinline></video>
+                <div class="face-outline" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                </div>
+                <p id="cameraFallback">Camera preview will appear here on localhost.</p>
+              </div>
+              <div class="scan-panel">
+                <div class="scan-meter">
+                  <span id="scanFill"></span>
+                </div>
+                <div class="scan-checklist">
+                  <div class="check-item" id="checkAlignment">
+                    <span class="check-bullet"></span>
+                    <span>Face Geometry Alignment</span>
+                  </div>
+                  <div class="check-item" id="checkLighting">
+                    <span class="check-bullet"></span>
+                    <span>Luminance & Contrast Threshold</span>
+                  </div>
+                  <div class="check-item" id="checkLiveness">
+                    <span class="check-bullet"></span>
+                    <span>Active Liveness Scan</span>
+                  </div>
+                  <div class="check-item" id="checkSpoofing">
+                    <span class="check-bullet"></span>
+                    <span>Anti-Spoofing Check</span>
+                  </div>
+                </div>
+                <p id="scanStatus">Allow camera access to start real-time facial verification.</p>
+                <button class="secondary-action" type="button" id="startCamera">Allow Camera</button>
+                <button class="primary-action" type="button" id="scanFace">Start Live Scan</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="auth-stage" id="stageLocation">
+            <div class="stage-title">
+              <span class="stage-number">04</span>
+              <div>
+                <h2>Location Context</h2>
+                <p>Verify the user's physical location against a trusted safe zone.</p>
+              </div>
+            </div>
+            <div class="location-grid">
+              <div class="location-map" aria-hidden="true">
+                <div class="geo-ring"></div>
+                <div class="geo-pin"></div>
+              </div>
+              <div class="location-panel">
+                <div class="metric-grid">
+                  <div>
+                    <strong id="locationDistance">--</strong>
+                    <small>Distance</small>
+                  </div>
+                  <div>
+                    <strong id="locationRadius">500 m</strong>
+                    <small>Safe zone</small>
+                  </div>
+                  <div>
+                    <strong id="locationAccuracy">--</strong>
+                    <small>GPS accuracy</small>
+                  </div>
+                  <div>
+                    <strong id="locationTrust">0%</strong>
+                    <small>Context trust</small>
+                  </div>
+                </div>
+                <p class="behavior-status" id="locationStatus">Use GPS to compare this login with the trusted location.</p>
+                <div class="behavior-meter">
+                  <span id="locationFill"></span>
+                </div>
+                <div class="gps-telemetry">
+                  <div class="telemetry-header">GPS Telemetry Console</div>
+                  <div class="telemetry-body" id="gpsConsole">> Initialize GPS verification...</div>
+                </div>
+                <div class="challenge-actions">
+                  <button class="secondary-action" type="button" id="setTrustedLocation">Use Current as Trusted</button>
+                  <button class="primary-action" type="button" id="verifyLocation">Verify Location</button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="auth-stage success-stage" id="stageSuccess">
+            <div class="success-mark" aria-hidden="true">OK</div>
+            <h2>Access Granted</h2>
+            <p>All four SecureShield authentication layers are verified, with behavioral typing intelligence checked during password entry.</p>
+            <button class="primary-action" type="button" id="restartDemo">Run Again</button>
+          </article>
+        </section>
+      </div>
+
+      <aside class="security-visual" aria-label="SecureShield system status">
+        <div class="shield-scene">
+          <div class="shield-core">
+            <span class="ring ring-one"></span>
+            <span class="ring ring-two"></span>
+            <span class="ring ring-three"></span>
+            <span class="ring ring-four"></span>
+            <strong>SECURE</strong>
+          </div>
+          <div class="signal signal-a"></div>
+          <div class="signal signal-b"></div>
+          <div class="signal signal-c"></div>
+        </div>
+        <div class="status-strip">
+          <div>
+            <span id="riskScore">25%</span>
+            <small>Verified</small>
+          </div>
+          <div>
+            <span id="threatStatus">Guarded</span>
+            <small>Threat state</small>
+          </div>
+          <div>
+            <span id="globalBehaviorScore">0%</span>
+            <small>Behavior trust</small>
+          </div>
+          <div>
+            <span id="globalLocationScore">0%</span>
+            <small>Location trust</small>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="layer-section" id="layers">
+      <div class="section-heading">
+        <p class="eyebrow">SecureShield architecture</p>
+        <h2>The four authentication layers</h2>
+      </div>
+      <div class="layer-grid">
+        <article class="layer-card">
+          <span>01</span>
+          <h3>Password + Behavioral Level</h3>
+          <p>Checks the user's known secret and silently measures typing rhythm while the password is entered.</p>
+        </article>
+        <article class="layer-card">
+          <span>02</span>
+          <h3>OTP</h3>
+          <p>Adds a temporary code so access depends on more than a reusable password.</p>
+        </article>
+        <article class="layer-card">
+          <span>03</span>
+          <h3>Facial Recognition</h3>
+          <p>Uses biometric matching to confirm the person requesting access is the registered user.</p>
+        </article>
+        <article class="layer-card">
+          <span>04</span>
+          <h3>Location Context</h3>
+          <p>Compares current GPS coordinates with a trusted safe zone before granting final access.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="monitoring-section" id="monitoring">
+      <div class="section-heading">
+        <p class="eyebrow">Additional security modules</p>
+        <h2>Behavioral and contextual layers</h2>
+      </div>
+      <div class="monitoring-grid">
+        <article>
+          <h3>Behavior Mechanism</h3>
+          <p>The system measures dwell time, how long each key is pressed, and flight time, the interval between key presses.</p>
+        </article>
+        <article>
+          <h3>Behavior Implementation</h3>
+          <p>Because SecureShield already has a password layer, behavioral analysis runs as a background check during the initial password step.</p>
+        </article>
+        <article>
+          <h3>Geo-Fencing</h3>
+          <p>The contextual layer checks GPS coordinates against a stored trusted location and blocks unfamiliar login regions.</p>
+        </article>
+        <article>
+          <h3>Security Benefit</h3>
+          <p>This hidden layer is difficult to replicate, even if an attacker has stolen the actual password.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="applications-section" id="applications">
+      <div class="section-heading">
+        <p class="eyebrow">Real-time applications</p>
+        <h2>Where SecureShield can be used</h2>
+      </div>
+      <div class="application-list">
+        <article>
+          <h3>Banking</h3>
+          <p>Protects account login, fund transfers, and administrative access.</p>
+        </article>
+        <article>
+          <h3>Healthcare</h3>
+          <p>Secures patient records, doctor portals, and sensitive clinical systems.</p>
+        </article>
+        <article>
+          <h3>Education</h3>
+          <p>Controls access to exam portals, student databases, and faculty dashboards.</p>
+        </article>
+        <article>
+          <h3>Enterprise</h3>
+          <p>Strengthens VPN, HR, cloud platform, and privileged employee sign-ins.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

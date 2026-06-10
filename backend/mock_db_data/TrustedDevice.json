@@ -1,0 +1,68 @@
+[
+  {
+    "userId": "8h01sy7f1",
+    "fingerprint": "be5cff3037a4ad4adbc68a93c46b031b1714d247137e5d4590da380c27c82999",
+    "deviceName": "Windows PC",
+    "ipAddress": "::1",
+    "lastUsedAt": "2026-06-09T12:40:28.920Z",
+    "isTrusted": false,
+    "_id": "kkzoxopcy",
+    "createdAt": "2026-06-09T12:34:12.366Z",
+    "updatedAt": "2026-06-09T12:40:28.921Z"
+  },
+  {
+    "userId": "3incrg0nl",
+    "fingerprint": "fd922344a6dbe70127a6cbd33405c182645db15876860f980f30b1180a1ffbfd",
+    "deviceName": "Windows PC",
+    "ipAddress": "::1",
+    "lastUsedAt": "2026-06-10T08:34:09.721Z",
+    "isTrusted": false,
+    "_id": "tjpax2rpf",
+    "createdAt": "2026-06-10T08:34:09.722Z",
+    "updatedAt": "2026-06-10T08:34:09.722Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "fingerprint": "codex-test-device",
+    "deviceName": "Codex Test Browser",
+    "ipAddress": "::1",
+    "lastUsedAt": "2026-06-10T08:35:37.290Z",
+    "isTrusted": false,
+    "_id": "x84ray98k",
+    "createdAt": "2026-06-10T08:35:37.291Z",
+    "updatedAt": "2026-06-10T08:35:37.291Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "fingerprint": "efb0f986a90d2b888acdcac9f8754429e6bb202f7ac693b77ea7c94abda6d125",
+    "deviceName": "Windows PC",
+    "ipAddress": "::1",
+    "lastUsedAt": "2026-06-10T08:49:38.637Z",
+    "isTrusted": false,
+    "_id": "kbk3qj13k",
+    "createdAt": "2026-06-10T08:38:08.846Z",
+    "updatedAt": "2026-06-10T08:49:38.638Z"
+  },
+  {
+    "userId": "ydhodbjo9",
+    "fingerprint": "9e669ef731a97f53727d2b5c39ae308a59620d21c251dee3a42615db3ecfcaa2",
+    "deviceName": "Windows PC",
+    "ipAddress": "::1",
+    "lastUsedAt": "2026-06-10T08:56:38.751Z",
+    "isTrusted": false,
+    "_id": "ofbg5i333",
+    "createdAt": "2026-06-10T08:54:13.258Z",
+    "updatedAt": "2026-06-10T08:56:38.752Z"
+  },
+  {
+    "userId": "oa6nyno13",
+    "fingerprint": "8703845822a13999d43f848d9a1ccafeaa7f6678e1f21c7fb0e6e883e726d13b",
+    "deviceName": "Windows PC",
+    "ipAddress": "::1",
+    "lastUsedAt": "2026-06-10T10:11:16.001Z",
+    "isTrusted": false,
+    "_id": "gwf9vbz06",
+    "createdAt": "2026-06-10T10:11:16.002Z",
+    "updatedAt": "2026-06-10T10:11:16.002Z"
+  }
+]

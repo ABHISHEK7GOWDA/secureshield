@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "email": "admin@secureshield.ai",
+    "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$wEhkvAHqwUbHMaBy3QSszA$nJgYS2RDFwvcDG1OVgTPXbcb4Khm6AH0ieGu+FIGf4c",
+    "role": "Admin",
+    "isMfaEnabled": true,
+    "backupCodes": [
+      "311656f37975c2903ba79c313e3baacfd81b83da36e6d20d3a1f6374530119fb",
+      "f893f8ad754982fe6c2458a4159619f01b0fe758abceee18edbcfc25cb4108b8",
+      "be9a6477b2a93a808269e3badbbce1425ca45014aedcbd45b41db886d89abcce",
+      "25948a84f21529d1c74bc0e6d8949bb3eb4c74b63d31ea12171fa0f712c90a68",
+      "b3ec34e9d410ebfb364babd78074bdce457fe0dc2cf11a9beff8b70deaacea7a",
+      "a9ac80cb387509847bb39b42936444b5475cf899b58718db4c36a6f12e8f50a3",
+      "0125145e10d9dbbddd39785f222a68acbb0b956e66d3202de067bca9acc9117f",
+      "486594c3469036d10373e08346747192fbad9a5a57e20b7bd8fc4209fa49b377"
+    ],
+    "failedAttempts": 0,
+    "_id": "oa6nyno13",
+    "createdAt": "2026-06-10T10:06:03.948Z",
+    "updatedAt": "2026-06-10T10:11:15.327Z"
+  },
+  {
+    "username": "analyst",
+    "email": "analyst@secureshield.ai",
+    "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$C52ChH7OQ45QBsgojZo6aA$h5+ozSTV2JhMREhu6p3ZLdfQRKLriY55mzQ21AIwyGo",
+    "role": "SecurityAnalyst",
+    "isMfaEnabled": true,
+    "backupCodes": [
+      "1c844688fcfcda1e941016e0c1886dfda81d4d88b0a5e75abad4a973a52e76dd",
+      "1637363d19df1dbbca97ebc8a6a67c03db9103e57348aa9c0f98a039d87914ba",
+      "e174c415996921da1b311bcd27bf863aa61ea1b1f751ddbf64c7e15158b2ea34",
+      "996bfad626d1b3b43ab23cd4876e26859afeca40d16de5317f7db262ece7deee",
+      "f3b7cd046d6b9e260f105c6da9d5ec2bd0235c2999c17aefd6a55807606d34e7",
+      "a8d247d542d0e800019c083a97374ec5f938f79edb197017d05e67202ff8f236",
+      "109f98578b41ecd436ad02b18e005e2f90e19874b1cbdf8d3190193d88b39979",
+      "6297e663fab01cb61af7c3039a1b25f1390091142bbc4bad4d8a44e4a6c6b91b"
+    ],
+    "failedAttempts": 0,
+    "_id": "gqt3bp2zo",
+    "createdAt": "2026-06-10T10:06:04.010Z",
+    "updatedAt": "2026-06-10T10:06:04.010Z"
+  },
+  {
+    "username": "user_demo",
+    "email": "user@secureshield.ai",
+    "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$XbTMBLa6s7XqeVmFFjH2Iw$p0B8qeZT6WyQ69ZpfCvIM7JlEbzscgkEiwCfCGX0Vyk",
+    "role": "User",
+    "isMfaEnabled": true,
+    "backupCodes": [
+      "fbcb49b1f3cdef3b490870e771f82d5c4e2de924a3534ec7d61a08465df45119",
+      "a51c2302c0e9aa7dae3dcaf53b0366280b7d5b8c690d326edebe01fbb0484c9f",
+      "0a8e1a1a554029785d0c7737704ceb6cf59d5cc1d9259bb10b6e20b6a37231f2",
+      "33a53a274f752049b7f958720662262abc450cb10f5750a27c9ab00f41e5d9f4",
+      "36efd7e631951f8b4f083f5b77d728d8dd5a68b6ffb35d07039ab985a73b85e2",
+      "ff2dc0d955d8c22e6736aa1006eb65e0c7c9c9294524d2d1786dfb7d45b73de8",
+      "6a09ae425756f9ebe584b813a8d8a7ddb4bc612ad7a87091e27cbb83b24c68b3",
+      "d13059fe83b86e9c09867bd6715b5197715e542994825f355b3440c73c5345cf"
+    ],
+    "failedAttempts": 0,
+    "_id": "icgpw13v8",
+    "createdAt": "2026-06-10T10:06:04.076Z",
+    "updatedAt": "2026-06-10T10:06:04.076Z"
+  }
+]

@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #f0f9ff;
+    color: #334155;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(125, 211, 252, 0.38);
+  box-shadow: 0 24px 80px rgba(14, 165, 233, 0.14);
+}
+
+.glass-card {
+  background: rgba(240, 249, 255, 0.78);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(186, 230, 253, 0.7);
+}
+
+/* Cyber Glow Animations */
+@keyframes cyber-pulse {
+  0%, 100% {
+    box-shadow: 0 16px 70px rgba(14, 165, 233, 0.12);
+    border-color: rgba(125, 211, 252, 0.35);
+  }
+  50% {
+    box-shadow: 0 20px 86px rgba(14, 165, 233, 0.2);
+    border-color: rgba(56, 189, 248, 0.55);
+  }
+}
+
+.animate-cyber-glow {
+  animation: cyber-pulse 3s infinite ease-in-out;
+}
+
+/* Scanning line overlay */
+@keyframes scan-movement {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(280px);
+  }
+}
+
+.scan-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to bottom, transparent, rgba(56, 189, 248, 0.5), transparent);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+  animation: scan-movement 2.5s infinite linear;
+  pointer-events: none;
+}
+
+/* Biometric key press visual highlight */
+@keyframes key-flash-anim {
+  0% {
+    background-color: rgba(56, 189, 248, 0.3);
+    transform: scale(1.03);
+  }
+  100% {
+    background-color: transparent;
+    transform: scale(1);
+  }
+}
+
+.key-press-pulse {
+  animation: key-flash-anim 0.2s ease-out;
+}
+
+/* Rotating visual rings */
+.ring-spin-slow {
+  animation: spin 16s linear infinite;
+}
+
+.ring-spin-reverse {
+  animation: spin 12s linear infinite reverse;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Cyberpunk grid background helper */
+.cyber-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(14, 165, 233, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(14, 165, 233, 0.08) 1px, transparent 1px);
+}
+
+.soft-sky-theme {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 12%, rgba(186, 230, 253, 0.85), transparent 32rem),
+    radial-gradient(circle at 80% 8%, rgba(224, 242, 254, 0.9), transparent 30rem),
+    linear-gradient(135deg, #f8fcff 0%, #e0f2fe 48%, #f0f9ff 100%);
+  color: #334155;
+}
+
+.soft-sky-theme [class*="bg-slate-950"],
+.soft-sky-theme [class*="bg-slate-900"],
+.soft-sky-theme [class*="bg-slate-850"] {
+  background-color: rgba(255, 255, 255, 0.78) !important;
+}
+
+.soft-sky-theme [class*="bg-sky-950"] {
+  background-color: rgba(224, 242, 254, 0.78) !important;
+}
+
+.soft-sky-theme [class*="bg-rose-950"] {
+  background-color: rgba(255, 241, 242, 0.9) !important;
+}
+
+.soft-sky-theme [class*="bg-emerald-950"] {
+  background-color: rgba(236, 253, 245, 0.9) !important;
+}
+
+.soft-sky-theme [class*="bg-amber-950"] {
+  background-color: rgba(255, 251, 235, 0.95) !important;
+}
+
+.soft-sky-theme [class*="border-slate-950"],
+.soft-sky-theme [class*="border-slate-900"],
+.soft-sky-theme [class*="border-slate-850"],
+.soft-sky-theme [class*="border-slate-800"] {
+  border-color: rgba(125, 211, 252, 0.42) !important;
+}
+
+.soft-sky-theme .text-white,
+.soft-sky-theme .text-slate-100,
+.soft-sky-theme .text-slate-200 {
+  color: #0f172a !important;
+}
+
+.soft-sky-theme .text-slate-300,
+.soft-sky-theme .text-slate-400 {
+  color: #475569 !important;
+}
+
+.soft-sky-theme .text-slate-500,
+.soft-sky-theme .text-slate-600 {
+  color: #64748b !important;
+}
+
+.soft-sky-theme input,
+.soft-sky-theme select {
+  background-color: rgba(255, 255, 255, 0.92) !important;
+  border-color: rgba(125, 211, 252, 0.7) !important;
+  color: #0f172a !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+.soft-sky-theme input::placeholder {
+  color: #94a3b8 !important;
+}
+
+.soft-sky-theme table {
+  color: #334155;
+}
+
+.soft-sky-theme .scan-line {
+  background: linear-gradient(to bottom, transparent, rgba(14, 165, 233, 0.45), transparent);
+}
