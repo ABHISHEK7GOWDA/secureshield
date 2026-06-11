@@ -1,12 +1,7 @@
 {
-  "experimentalServices": {
-    "frontend": {
-      "root": "frontend",
-      "routePrefix": "/"
-    },
-    "backend": {
-      "root": "backend",
-      "routePrefix": "/api"
-    }
-  }
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/index.js" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
 }
