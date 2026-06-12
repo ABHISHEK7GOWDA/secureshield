@@ -74,7 +74,7 @@ const swaggerSpec = swaggerJsdoc(swaggerOptions);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // Health-check endpoint
-app.get("/health", (req: Request, res: Response) => {
+app.get(["/health", "/api/health"], (req: Request, res: Response) => {
   res.status(200).json({
     status: "UP",
     timestamp: new Date(),
