@@ -2,8 +2,9 @@ import winston from "winston";
 import path from "path";
 import fs from "fs";
 
+const isVercel = !!process.env.VERCEL;
 const logDir = "logs";
-if (!fs.existsSync(logDir)) {
+if (!isVercel && !fs.existsSync(logDir)) {
   fs.mkdirSync(logDir);
 }
 
@@ -27,20 +28,26 @@ const consoleFormat = winston.format.combine(
 export const logger = winston.createLogger({
   level: process.env.NODE_ENV === "production" ? "info" : "debug",
   format: logFormat,
-  transports: [
-    new winston.transports.File({
-      filename: path.join(logDir, "error.log"),
-      level: "error",
-      maxsize: 5242880, // 5MB
-      maxFiles: 5,
-    }),
-    new winston.transports.File({
-      filename: path.join(logDir, "combined.log"),
-      maxsize: 5242880, // 5MB
-      maxFiles: 5,
-    }),
-    new winston.transports.Console({
-      format: consoleFormat,
-    }),
-  ],
+  transports: isVercel
+    ? [
+        new winston.transports.Console({
+          format: consoleFormat,
+        }),
+      ]
+    : [
+        new winston.transports.File({
+          filename: path.join(logDir, "error.log"),
+          level: "error",
+          maxsize: 5242880, // 5MB
+          maxFiles: 5,
+        }),
+        new winston.transports.File({
+          filename: path.join(logDir, "combined.log"),
+          maxsize: 5242880, // 5MB
+          maxFiles: 5,
+        }),
+        new winston.transports.Console({
+          format: consoleFormat,
+        }),
+      ],
 });
